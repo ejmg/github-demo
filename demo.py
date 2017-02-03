@@ -10,12 +10,6 @@ veresion: 3.2.17
 import arrow
 
 
-def list_example():
-    """
-    print a list of integers using range()
-    """
-
-
 def print_date_today():
 
     """

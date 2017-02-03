@@ -15,8 +15,9 @@ def print_date_today():
     """
     This doesn't print right...
     """
-    print("The date today is".format(arrow.now()))
+    print("The date today is".format(arrow.now().format("YYYY-MM-DD")))
 
+    # this could be made better...doesn't year come last normally?
 
 def print_names():
 
@@ -29,6 +30,6 @@ def main():
     print_names()
     print_date_today()
 
-    
+
 if __name__ == "__main__":
     main()

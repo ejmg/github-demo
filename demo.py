@@ -26,6 +26,7 @@ def print_names():
     """
     print("Will, Austin, Isaac, and Elias.")
     print("Wait, I probably forgot some other people, didn't I?")
+    print("Please type in your names here: ")
 
 
 def main():

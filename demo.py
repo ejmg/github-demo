@@ -10,6 +10,17 @@ veresion: 3.2.17
 import arrow
 
 
+def print_list():
+    """
+    * DEVELOPMENT FEATURE, MAY NOT WORK *
+    creates and prints a list of integers using the range() std function and
+    list comprehension
+    """
+    list = [x for x in range(POTATO)]
+
+    print(list)
+
+
 def print_date_today():
 
     """

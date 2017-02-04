@@ -10,6 +10,29 @@ veresion: 3.2.17
 import arrow
 
 
+def print_bleeding_edge():
+    """
+    ** BLEEDING EDGE, MAY CRASH YOUR CPU **
+    real_software_engineering.jpg
+    """
+
+    print("""
+
+     ____________________________________
+    < VERY SECRET, BLEEDING EDGE FEATURE >
+    ------------------------------------
+       \    ____
+        \  /    \
+          | ^__^ |
+          | (oo) |______
+          | (__) |      )\/\
+           \____/|----w |
+                ||     ||
+
+             Moofasa
+    """)
+
+
 def print_list():
     """
     * DEVELOPMENT FEATURE, MAY NOT WORK *

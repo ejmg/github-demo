@@ -39,7 +39,7 @@ def print_list():
     creates and prints a list of integers using the range() std function and
     list comprehension
     """
-    list = [x for x in range(POTATO)]
+    list = [x for x in range(9)]
 
     print(list)
 

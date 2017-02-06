@@ -1,0 +1,159 @@
+#+TITLE: Using Git with Github and Term
+#+AUTHOR: elias julian marko garcia
+#+OPTIONS: H:2 toc:t num:t
+#+LATEX_HEADER: \RequirePackage{fancyvrb}
+#+LATEX_HEADER: \DefineVerbatimEnvironment{verbatim}{Verbatim}{fontsize=\scriptsize}
+#+LATEX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [t]
+#+LATEX_CLASS_OPTIONS: [presentation]
+#+beamer: \beamerdefaultoverlayspecification{<+->}
+#+BEAMER_THEME: default
+
+* 1. Why You Should Use Version Control
+   :PROPERTIES:
+   :BEAMER_opt: t
+   :END:
+
+** Version control is your friend
+
+*** 
+*** FOR ALL THAT IS HOLY, YOU SHOULD ALREADY BE USING VERSION CONTROL
+    :PROPERTIES:
+    :BEAMER_ENV: block
+    :END:
+
+     - You never know what [[https://www.youtube.com/watch?v=J3zYBno6Kwc][might happen to your stuff]].
+     - If your laptop was destroyed in the next ten minutes, would you be able to recover by tomorrow?
+     - More extreme: what if your apartment, dorm, etc., caught fire?
+
+** Version control is a no brainer
+
+*** 
+
+*** This equally applies to all other work that you have, whether it is class papers or family photos or code.
+    :PROPERTIES:
+    :BEAMER_env: block
+    :BEAMER_ACT:
+    :END:
+    - It should be agreeable that you need /something/
+    - Your code is no exception
+
+** Version control is more than just a backup
+
+*** It allows you to do many things:
+    1. Track and organize your work
+       1. This means being able to switch between versions and revert regressive changes
+          1. You can have a main branch, a development branch, a bleeding edge branch, patch branches, and n^th feature branches all simultaneously in existence
+       2. It becomes a (near) one stop hub for planning and organizing your project
+          1. Especially so with services like github
+          2. This is even for non-code/programming related things, i.e. academic research
+    2. It allows you to show your work to others
+       1. this is a *huge* plus for employers
+       2. shows your ability (specialization and breadth of knowledge)
+       3. ...your commitment (how long have you been programming?)
+       4. ...your creativity (interesting, funny, useful projects)
+** Version control is more than just a backup cont.
+   :PROPERTIES:
+   :BEAMER_ACT: <3->
+   :END:
+*** It allows you to do many things:
+   1. Track and organize your work
+   2. It allows you to show your work to others
+   3. Contribute to FOSS
+      1. Linux's kernal has been on Github for years.
+      2. Google, Facebook, and etc. put many of their projects online and open for use, contribution
+      3. V.C. has been a key part to this process, before Github and especially after.
+   4. Cloud based solutions, like Github, ensure you stuff is *always* safe.
+      1. Or, at least reasonably safer than you, a non corporate entity with non-corporate backup mechanisms, can guarantee.
+** There is no excuse not to use version control
+*** 
+*** Git is available for all platforms, as is services like Github
+*** If you are really concerned about sharing your code for x reason, still no excuses
+    - [[https://github.com/blog/1900-the-best-developer-tools-now-free-for-students][Github has a student account program that gives you the paid benefits of Github for free]]
+      - i.e. private repositories that no one else can see unless you invite them to see it
+      - tons of other benefits: free domain hosting, free hosting credits, payment processing waiver, database access, email infrastructure credits, free access to the unreal game engine, build integration tools, and a few more
+** "I don't need version control"
+    [[file:../presentation/Screenshot from 2017-02-06 12-15-04.png]]
+    
+* 2. Basics
+   :PROPERTIES:
+   :BEAMER_opt: t
+   :END:
+
+** Preface
+
+*** This is a hands on tutorial
+    - I am not a git professional, but neither are most programmers
+    - If you are a project manager, things obviously change.
+    - Follow along if you can with your machine, if not, try to write notes.
+      - Will go over your head otherwise because that is just how git is.
+
+** Assumptions
+
+*** You have the following installed for your system:
+    1. Git
+    2. Python 3.5
+    3. Some kind of text editor (won't cover)
+    4. Some kind of shell (won't cover)
+       - If you can do 1-2 without shell access, then you are probably using Windows. Boo.
+    5. Github account (won't cover)
+
+** 1. Install Git on your machine (Reference)
+
+*** Linux
+    Tons of ways to do it, tar method works on all. Use system package manager when possible, just a lot easier.
+   #+BEGIN_SRC bash
+   # for ubuntu
+   sudo apt install git #16.04
+   sudo apt-get install git #14.04
+   #+END_SRC
+
+*** Mac
+    1. [[https://git-scm.com/download/mac][Binary Installer via Git]]
+    2. Macports
+       #+BEGIN_SRC bash
+       sudo port install git +svn +doc +bash_completion +gitweb
+       #+END_SRC
+    3. Homebrew
+       #+BEGIN_SRC bash
+       brew install git
+       #+END_SRC
+** 1. Install Git on your machine (Reference)
+*** Windows
+    :PROPERTIES:
+    :BEAMER_env: block
+    :BEAMER_ACT:
+    :END:
+    - Personally, I have zero experience with this. That said, Git says it's easy using the [[http://msysgit.github.io][msysGit]]
+** 2. Install Python on your machine (Reference)
+*** 
+*** Linux and Mac
+    - Again, tons of ways.
+    - Personally recommend `[[https://github.com/yyuu/pyenv][Pyenv]]`, fantastic Python version and virtualenv manager.
+*** Windows
+    - Hahaha
+    - Anaconda is a very good package that basically does what Pyenv does.
+      - Anaconda also works for Linux and Mac
+** Fork a repository!
+* 3. Contributing to a Repository
+** Frame 1
+   :PROPERTIES:
+   :BEAMER_opt:
+   :END:
+   
+*** Thanks to Eric Fraga for the first viable Beamer setup in Org
+    This is test text blah blah
+*** Thanks to everyone else for contributing to the discussion :B_block:
+:PROPERTIES:
+:BEAMER_COL: 0.48
+:BEAMER_ACT: <2->
+:BEAMER_ENV: block
+:END:
+**** This will be formatted as a beamer note
+:PROPERTIES:
+:BEAMER_env: note
+:END:
+** Frame 2 (where we will not use columns)
+*** Request
+    Please test this stuff!
+*** Also, potatoes!

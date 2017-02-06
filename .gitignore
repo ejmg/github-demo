@@ -1,2 +1,5 @@
 /__pycache__/demo.cpython-34.pyc
 /__pycache__/main.cpython-34.pyc
+.tex
+*.tex
+*.el

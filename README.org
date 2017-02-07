@@ -17,4 +17,12 @@
    - make a pull request
    - and many of the definitions from above (and more)
 
-* *Please feel free* to use this repository as a way to get your feet wet with Git and Github  if you do not have experience with these tools.
+* *Please feel free* to use this repository
+
+  *as a way to get your feet wet with Git and Github  if you do not have experience with these tools.*
+
+* TODO
+
+- [ ] cover branching more
+- [ ] cover merging more
+- [ ] make the respective demo code for the above

@@ -1,0 +1,20 @@
+
+* github-demo repository
+
+  This repo was created as a demonstration and introduction into Git and Github as version control tools. 
+  This repository's "main program", ~demo.py~, is intended to be used as a driver that can be trivially edited and patched
+  after being forked by a user.
+
+  Under ~/presentation~ you will find the ~git-basics.org~ file and its exported and formatted PDF version. In either file,
+  you will find an introduction to Git and Github and...
+
+** You will learn how to:
+   - start a repository of your own
+   - add a remote
+   - commit files
+   - fork a repository (this one)
+   - contribute an edit of a forked repository
+   - make a pull request
+   - and many of the definitions from above (and more)
+
+* *Please feel free* to use this repository as a way to get your feet wet with Git and Github  if you do not have experience with these tools.

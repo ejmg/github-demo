@@ -19,9 +19,11 @@
 
 * *Please feel free* to use this repository
 
-  *as a way to get your feet wet with Git and Github  if you do not have experience with these tools.*
+  *...as a way to get your feet wet with Git and Github  if you do not have experience with these tools.*
+  - Git and Github are very important tools for any programmer (and even non-programmers, think STEM and Social Sciences)
+  - just like anything with programming, the best way to learn is by doing. Don't be scared to make mistakes with this repository. Go forth and learn!
 
-* TODO
+* TODO things to add to the demo guide and repo
 
 - [ ] cover branching more
 - [ ] cover merging more
